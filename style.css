@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+}
+
+.container .logo img{
+    display: block;
+    max-width: 600px;
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.full_form{
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 450px;
+    height: auto;
+}
+
+.heading h2{
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+.form_area label{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.form_area input{
+    width: 100%;
+    padding: 10px 15px;
+    margin: 5px 0 20px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #707070;
+    outline: none;
+}
+
+.form_area input:focus{
+    outline: 2px solid #000;
+}
+
+.btn{
+    margin: 0 0 30px 0;
+}
+
+.btn button{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background: #3388ff;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all .30s;
+}
+
+.btn button:hover{
+    background: #286bca;
+}
+
+.btn button:active{
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #3388ff;
+    transition: none;
+}
+
+.policy p{
+    width: 100%;
+    color: rgba(0,0,0,0.7);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.policy a{
+    text-decoration: none;
+    color: #3388ff;
+}
+
+.policy a:hover{
+    text-decoration: underline;
+}
+
+.line{
+    height: 1px;
+    width: 100%;
+    background: #ddd;
+}
+
+.line::before{
+    content: "or";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    color: #000;
+    padding: 0 15px;
+}
+
+.login_anothter{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0 0 0;
+}
+
+.login_anothter a{
+    text-decoration: none;
+    align-items: center;
+}
+
+.login_anothter a i{
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.login_anothter a i.fa-google{
+    color: red;
+}
+
+.login_anothter a i.fa-facebook{
+    color: #1877F2;
+}
+
+.login_anothter button{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    outline: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    background: #fff;
+    cursor: pointer;
+    transition: all .30s;
+}
+
+.login_anothter button:hover{
+    background: #f2f2f2;
+}

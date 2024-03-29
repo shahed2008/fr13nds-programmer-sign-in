@@ -1,0 +1,20 @@
+/* Mobile Device */
+@media (max-width:790px) {
+    .full_form {
+        width: 369px;
+    }
+
+    .btn button{
+        transition: none;
+    }
+
+    .login_anothter button{
+        transition: none;
+    }
+}
+
+@media (max-width: 740px) {
+    .full_form {
+        width: 341px;
+    }
+}
